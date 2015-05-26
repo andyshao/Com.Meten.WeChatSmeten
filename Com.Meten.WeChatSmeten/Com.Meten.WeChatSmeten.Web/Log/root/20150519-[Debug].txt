@@ -1,0 +1,6 @@
+DEBUG--2015-05-19 18:46:43,761
+缓存里面不存在AccessToken,获取AccessToken的地址:https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx42a02db041ff42fe&secret=1a23bdbb67a6400a9861fe0e84181b44
+
+DEBUG--2015-05-19 18:46:44,451
+缓存里面不存在ip列表,获取IP列表的地址:https://api.weixin.qq.com/cgi-bin/getcallbackip?access_token=VLl6kVwTqSp5FzkWmdsLd7nhAVcrt7o-Gp4v4rKCY2bxwQ_7vlWnQp6UmzdzphG8TSNN97uDbrLi8YwcbhZVFwrQDFsW7TERlJ21hyFEVL8
+

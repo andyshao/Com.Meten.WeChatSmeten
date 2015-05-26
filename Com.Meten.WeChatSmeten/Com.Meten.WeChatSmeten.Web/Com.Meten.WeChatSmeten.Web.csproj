@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8F4660CB-84DC-4C6E-972C-21023925FDCC}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Com.Meten.WeChatSmeten.Web</RootNamespace>
+    <AssemblyName>Com.Meten.WeChatSmeten.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common.Logging, Version=2.0.0.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging.Log4Net, Version=2.0.0.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Common.Logging.Log4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="GetInfos.aspx" />
+    <Content Include="Groups.aspx" />
+    <Content Include="img\icon48_wx_button.png" />
+    <Content Include="js\jquery-1.8.2.min.js" />
+    <Content Include="medias.aspx" />
+    <Content Include="mediasLong.aspx" />
+    <Content Include="Menus.aspx" />
+    <Content Include="OAuthLogin.aspx" />
+    <Content Include="OAuthLoginReturn.aspx" />
+    <Content Include="Services.aspx" />
+    <Content Include="UserInfo.aspx" />
+    <Content Include="Users.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business\BaseDataHelper.cs" />
+    <Compile Include="Business\CustomServiceHelper.cs" />
+    <Compile Include="Business\MenuHelper.cs" />
+    <Compile Include="Business\MessageHelper20.cs" />
+    <Compile Include="Business\Msg\EventsMsg.cs" />
+    <Compile Include="Business\Msg\ImageMsg.cs" />
+    <Compile Include="Business\Msg\LinkMsg.cs" />
+    <Compile Include="Business\Msg\LocationMsg.cs" />
+    <Compile Include="Business\Msg\MsgCreateHelper.cs" />
+    <Compile Include="Business\Msg\VideoMsg.cs" />
+    <Compile Include="Business\Msg\VoiceMsg.cs" />
+    <Compile Include="Business\OAuthHelper.cs" />
+    <Compile Include="Business\UserGroupHepler.cs" />
+    <Compile Include="Business\UserHelper.cs" />
+    <Compile Include="Data\CommonData.cs" />
+    <Compile Include="Business\MediaHelper.cs" />
+    <Compile Include="Business\MessageHelper.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GetInfos.aspx.cs">
+      <DependentUpon>GetInfos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GetInfos.aspx.designer.cs">
+      <DependentUpon>GetInfos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Groups.aspx.cs">
+      <DependentUpon>Groups.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Groups.aspx.designer.cs">
+      <DependentUpon>Groups.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="medias.aspx.cs">
+      <DependentUpon>medias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="medias.aspx.designer.cs">
+      <DependentUpon>medias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mediasLong.aspx.cs">
+      <DependentUpon>mediasLong.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mediasLong.aspx.designer.cs">
+      <DependentUpon>mediasLong.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Menus.aspx.cs">
+      <DependentUpon>Menus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menus.aspx.designer.cs">
+      <DependentUpon>Menus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="msgHandler.ashx.cs">
+      <DependentUpon>msgHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Business\Msg\BaseMsg.cs" />
+    <Compile Include="Business\Msg\TextMsg.cs" />
+    <Compile Include="OAuthLogin.aspx.cs">
+      <DependentUpon>OAuthLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OAuthLogin.aspx.designer.cs">
+      <DependentUpon>OAuthLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OAuthLoginReturn.aspx.cs">
+      <DependentUpon>OAuthLoginReturn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OAuthLoginReturn.aspx.designer.cs">
+      <DependentUpon>OAuthLoginReturn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services.aspx.cs">
+      <DependentUpon>Services.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Services.aspx.designer.cs">
+      <DependentUpon>Services.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserInfo.aspx.cs">
+      <DependentUpon>UserInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserInfo.aspx.designer.cs">
+      <DependentUpon>UserInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Users.aspx.cs">
+      <DependentUpon>Users.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Users.aspx.designer.cs">
+      <DependentUpon>Users.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="msgHandler.ashx" />
+    <Content Include="Log.Config" />
+    <None Include="Properties\PublishProfiles\FTP_WEIXIN.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Com.Meten.WeChatSmeten.Entities\Com.Meten.WeChatSmeten.Entities.csproj">
+      <Project>{089fb5a8-9afc-4ae2-bccb-89f2f593aebe}</Project>
+      <Name>Com.Meten.WeChatSmeten.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Com.Meten.WeChatSmeten.Helper\Com.Meten.WeChatSmeten.Helper.csproj">
+      <Project>{24fa0465-c071-42de-8167-d5ac1056852a}</Project>
+      <Name>Com.Meten.WeChatSmeten.Helper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Com.Meten.WeChatSmeten.TencentCrypt\Com.Meten.WeChatSmeten.TencentCrypt.csproj">
+      <Project>{01c70ece-b773-4c4d-8152-f9cbe1715448}</Project>
+      <Name>Com.Meten.WeChatSmeten.TencentCrypt</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:53225/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

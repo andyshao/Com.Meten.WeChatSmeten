@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Meten.WeChatSmeten.Web", "Com.Meten.WeChatSmeten.Web\Com.Meten.WeChatSmeten.Web.csproj", "{8F4660CB-84DC-4C6E-972C-21023925FDCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Meten.WeChatSmeten.Entities", "Com.Meten.WeChatSmeten.Entities\Com.Meten.WeChatSmeten.Entities.csproj", "{089FB5A8-9AFC-4AE2-BCCB-89F2F593AEBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{EC28BD0A-A89C-4A52-9F44-71E78F0D504F}"
+	ProjectSection(SolutionItems) = preProject
+		Com.Meten.WeChatSmeten.Lib\Common.Logging.dll = Com.Meten.WeChatSmeten.Lib\Common.Logging.dll
+		Com.Meten.WeChatSmeten.Lib\Common.Logging.Log4Net.dll = Com.Meten.WeChatSmeten.Lib\Common.Logging.Log4Net.dll
+		Com.Meten.WeChatSmeten.Lib\log4net.dll = Com.Meten.WeChatSmeten.Lib\log4net.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Meten.WeChatSmeten.TencentCrypt", "Com.Meten.WeChatSmeten.TencentCrypt\Com.Meten.WeChatSmeten.TencentCrypt.csproj", "{01C70ECE-B773-4C4D-8152-F9CBE1715448}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Meten.WeChatSmeten.Helper", "Com.Meten.WeChatSmeten.Helper\Com.Meten.WeChatSmeten.Helper.csproj", "{24FA0465-C071-42DE-8167-D5AC1056852A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F4660CB-84DC-4C6E-972C-21023925FDCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F4660CB-84DC-4C6E-972C-21023925FDCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F4660CB-84DC-4C6E-972C-21023925FDCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F4660CB-84DC-4C6E-972C-21023925FDCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{089FB5A8-9AFC-4AE2-BCCB-89F2F593AEBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{089FB5A8-9AFC-4AE2-BCCB-89F2F593AEBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{089FB5A8-9AFC-4AE2-BCCB-89F2F593AEBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{089FB5A8-9AFC-4AE2-BCCB-89F2F593AEBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01C70ECE-B773-4C4D-8152-F9CBE1715448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01C70ECE-B773-4C4D-8152-F9CBE1715448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01C70ECE-B773-4C4D-8152-F9CBE1715448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01C70ECE-B773-4C4D-8152-F9CBE1715448}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24FA0465-C071-42DE-8167-D5AC1056852A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24FA0465-C071-42DE-8167-D5AC1056852A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24FA0465-C071-42DE-8167-D5AC1056852A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24FA0465-C071-42DE-8167-D5AC1056852A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

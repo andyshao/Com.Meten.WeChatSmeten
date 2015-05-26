@@ -1,0 +1,30 @@
+﻿美联英语内部服务
+https://mp.weixin.com
+id:lucky@meten.com
+pwd:lkacyb
+外网域名  http://wechat-test.meteni.com
+
+接口文档：http://mp.weixin.qq.com/wiki/home/index.html
+
+
+
+
+
+
+ftpIP: wechat-test.meteni.com
+ftp用户名: rock_ldy
+ftp密码: !!22qq
+ftp端口: 10002
+
+
+
+36a83eeb292be54e56f6a23d2ab3f5b2
+
+
+
+
+
+
+
+
+oUkibjoqNFouue8k3d3BUqacw4q8

@@ -1,0 +1,12 @@
+E:\Com.Meten.WeChatSmeten\Com.Meten.WeChatSmeten.Entities\bin\Debug\Com.Meten.WeChatSmeten.Entities.dll
+E:\Com.Meten.WeChatSmeten\Com.Meten.WeChatSmeten.Entities\bin\Debug\Com.Meten.WeChatSmeten.Entities.pdb
+E:\Com.Meten.WeChatSmeten\Com.Meten.WeChatSmeten.Entities\obj\Debug\Com.Meten.WeChatSmeten.Entities.dll
+E:\Com.Meten.WeChatSmeten\Com.Meten.WeChatSmeten.Entities\obj\Debug\Com.Meten.WeChatSmeten.Entities.pdb
+D:\wechat-test.meteni.com\Src\Com.Meten.WeChatSmeten.Entities\bin\Debug\Com.Meten.WeChatSmeten.Entities.dll
+D:\wechat-test.meteni.com\Src\Com.Meten.WeChatSmeten.Entities\bin\Debug\Com.Meten.WeChatSmeten.Entities.pdb
+D:\wechat-test.meteni.com\Src\Com.Meten.WeChatSmeten.Entities\obj\Debug\Com.Meten.WeChatSmeten.Entities.dll
+D:\wechat-test.meteni.com\Src\Com.Meten.WeChatSmeten.Entities\obj\Debug\Com.Meten.WeChatSmeten.Entities.pdb
+E:\wechat-test.meteni.com\Com.Meten.WeChatSmeten\Com.Meten.WeChatSmeten.Entities\bin\Debug\Com.Meten.WeChatSmeten.Entities.dll
+E:\wechat-test.meteni.com\Com.Meten.WeChatSmeten\Com.Meten.WeChatSmeten.Entities\bin\Debug\Com.Meten.WeChatSmeten.Entities.pdb
+E:\wechat-test.meteni.com\Com.Meten.WeChatSmeten\Com.Meten.WeChatSmeten.Entities\obj\Debug\Com.Meten.WeChatSmeten.Entities.dll
+E:\wechat-test.meteni.com\Com.Meten.WeChatSmeten\Com.Meten.WeChatSmeten.Entities\obj\Debug\Com.Meten.WeChatSmeten.Entities.pdb

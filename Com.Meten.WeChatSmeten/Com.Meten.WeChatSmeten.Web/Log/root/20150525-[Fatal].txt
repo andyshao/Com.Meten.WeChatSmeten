@@ -1,0 +1,3 @@
+FATAL--2015-05-25 09:49:09,145
+获取access_token发生错误,错误代码为：45009；错误描述为：reach max api daily quota limit
+
